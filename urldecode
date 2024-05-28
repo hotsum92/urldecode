@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat - | php -R 'echo urldecode($argn), "\n";'
